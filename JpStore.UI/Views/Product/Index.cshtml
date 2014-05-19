@@ -1,0 +1,32 @@
+﻿@model IEnumerable<JpStore.Model.Products.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table>
+    <tr>
+        <th>Title
+        </th>
+        <th>Brand
+        </th>
+        <th>Category
+        </th>
+    </tr>
+    @foreach (var product in Model)
+    {
+        <tr>
+            <td>
+                @product.Title
+            </td>
+            <td>
+                @product.Brand.Title
+            </td>
+            <td>
+                @product.Category.Title
+            </td>
+        </tr>
+    }
+</table>
