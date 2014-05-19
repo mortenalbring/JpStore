@@ -158,10 +158,6 @@
     <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JpStore.Model\JpStore.Model.csproj">
-      <Project>{4f980755-411c-425d-8b34-68aaf5734c39}</Project>
-      <Name>JpStore.Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\JpStore.Controllers\JpStore.Controllers.csproj">
       <Project>{1b742d20-d82e-42c1-ad94-88d659a5a10f}</Project>
       <Name>JpStore.Controllers</Name>
@@ -169,6 +165,10 @@
     <ProjectReference Include="..\JpStore.Infrastructure\JpStore.Infrastructure.csproj">
       <Project>{9380a750-c551-4e78-80b0-21c5f4ac0284}</Project>
       <Name>JpStore.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JpStore.Model\JpStore.Model.csproj">
+      <Project>{4f980755-411c-425d-8b34-68aaf5734c39}</Project>
+      <Name>JpStore.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\JpStore.Repository\JpStore.Repository.csproj">
       <Project>{44f99190-15d3-45a0-be74-27dee8864b3d}</Project>

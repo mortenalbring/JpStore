@@ -58,13 +58,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JpStore.Model\JpStore.Model.csproj">
-      <Project>{4f980755-411c-425d-8b34-68aaf5734c39}</Project>
-      <Name>JpStore.Model</Name>
-    </ProjectReference>
     <ProjectReference Include="..\JpStore.Infrastructure\JpStore.Infrastructure.csproj">
       <Project>{9380a750-c551-4e78-80b0-21c5f4ac0284}</Project>
       <Name>JpStore.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JpStore.Model\JpStore.Model.csproj">
+      <Project>{4f980755-411c-425d-8b34-68aaf5734c39}</Project>
+      <Name>JpStore.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

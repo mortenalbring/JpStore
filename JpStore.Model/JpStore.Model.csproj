@@ -62,7 +62,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JpStore\JpStore.Infrastructure\JpStore.Infrastructure.csproj">
+    <ProjectReference Include="..\JpStore.Infrastructure\JpStore.Infrastructure.csproj">
       <Project>{9380a750-c551-4e78-80b0-21c5f4ac0284}</Project>
       <Name>JpStore.Infrastructure</Name>
     </ProjectReference>
